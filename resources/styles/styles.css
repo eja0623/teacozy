@@ -1,4 +1,72 @@
+/* General Rules */
+
 body {
+  background-color: black;
+  margin: 0;
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+  font-family: Helvetica;
+  
+}
+
+a {
+  color: seashell;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
   background-color: black;
 }
 
+.logo {
+  width: 910px;
+}
+
+.logo img {
+  display: flex;
+  height: 50px;
+  padding-left:10px;
+  flex-grow: 1;
+  align-items: center;
+  
+}
+
+nav span {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Main Content */
+
+.main-content {
+  display: flex;
+  width: 1200px;
+  padding: 70px 70px 0 70px;
+  position: static;
+}
+.img-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  opacity: .9;
+}
+
+
+.img-one.img-content {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 300px;
+}
+
+.mission-heading {
+  display: inline-block;
+  align-items: center;
+}
