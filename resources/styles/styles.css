@@ -7,7 +7,6 @@ body {
   font-size: 22px;
   text-align: center;
   font-family: Helvetica;
-  
 }
 
 a {
@@ -64,13 +63,11 @@ nav span {
   width: 100%;
 }
 
-
 #mission.img-content {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   padding-top: 70px;
 }
-
 
 #mission .content {
   margin: auto;
@@ -79,7 +76,6 @@ nav span {
 }
 
 /* Middle Section */
-
 
 #second-content {
   height: 700px;
@@ -149,6 +145,7 @@ img-content-two {
   margin: auto;
   opacity: .9;
 }
+
 /* Bottom Section */
 
 .bottom {
