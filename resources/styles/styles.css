@@ -66,13 +66,18 @@ nav span {
 #mission.img-content {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
-  padding-top: 70px;
+  padding-top: 69px;
 }
 
 #mission .content {
   margin: auto;
   background-color: black;
   width: 100%;
+  height: 115px;
+}
+
+.content h2 {
+  margin-top: 10px;
 }
 
 /* Middle Section */
@@ -117,7 +122,6 @@ nav span {
   height: 500px;
   width: 1200px;
   display: inline-block;
-  vertical-align: bottom;
 }
 
 img-content-two {
@@ -127,13 +131,12 @@ img-content-two {
 
 .boxes {
   display: inline-block;
-  flex-direction: column;
-  align-items: center;
   background-color: black;
   width: 300px;
-  height: 300px;
-  padding: 10px;
-  margin: 5px 20px;
+  height: 270px;
+  padding: 5px 10px 5px 5px;
+  margin: 5px 15px;
+  opacity: 1;
 }
 
 .third-content {
@@ -141,21 +144,30 @@ img-content-two {
   align-content: center;
   justify-content: center;
   width: 1200px;
-  padding: 69px 69px 0 69px;
+  padding: 60px 69px 0 69px;
   margin: auto;
   opacity: .9;
+}
+
+.locations {
+  padding-top: 10px;
+  margin-top: 10px;
 }
 
 /* Bottom Section */
 
 .bottom {
   height: 200px;
-  opacity: .9;
+}
+
+.text p, h3 {
+  padding: 8px;
+  margin-top: 8px;
 }
 
 /* Footer */
 
 .footer {
   text-align: left;
-  opacity: .9;
+  margin-left: 10px;
 }
