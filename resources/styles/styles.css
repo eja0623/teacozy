@@ -65,14 +65,14 @@ nav span {
 }
 
 
-#img-one.img-content {
+#mission.img-content {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   padding-top: 70px;
 }
 
 
-#img-one .content {
+#mission .content {
   margin: auto;
   background-color: black;
   width: 100%;
@@ -85,6 +85,8 @@ nav span {
   height: 700px;
   width: 1000px;
   margin: auto;
+  opacity: .9;
+  padding-bottom: 0;
 }
 
 .mid-container {
@@ -102,6 +104,7 @@ nav span {
   width: 300px;
   display: block;
   padding: 10px;
+  opacity: .9;
 }
 
 .each-pic span {
@@ -113,3 +116,48 @@ nav span {
 
   /* Bottom Section */
 
+#img-bottom {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+img-content-two {
+  display: flex; 
+  width: 100%;
+}
+
+.boxes {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+.third-content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 1200px;
+  padding: 69px 69px 0 69px;
+  margin: auto;
+  opacity: .9;
+}
+/* Bottom Section */
+.bottom {
+  height: 200px;
+  opacity: .9;
+}
+
+/* Footer */
+
+.footer {
+  text-align: left;
+  opacity: .9;
+}
