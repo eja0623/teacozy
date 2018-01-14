@@ -124,7 +124,7 @@ nav span {
   display: inline-block;
 }
 
-img-content-two {
+.img-content-two {
   display: flex; 
   width: 100%;
 }
