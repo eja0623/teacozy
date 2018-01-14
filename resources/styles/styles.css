@@ -14,6 +14,7 @@ a {
   color: seashell;
 }
 
+
 /* Header */
 
 header {
@@ -47,26 +48,68 @@ nav span {
 
 /* Main Content */
 
+
 .main-content {
   display: flex;
   width: 1200px;
-  padding: 70px 70px 0 70px;
-  position: static;
-}
-.img-content {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+  padding: 69px;
+  margin: auto;
   opacity: .9;
 }
 
+/* Top Section */
 
-.img-one.img-content {
+.img-content {
+  display: flex;
+  width: 100%;
+}
+
+
+#img-one.img-content {
   background-image: url("../images/img-mission-background.jpg");
-  height: 300px;
+  height: 700px;
+  padding-top: 70px;
 }
 
-.mission-heading {
-  display: inline-block;
-  align-items: center;
+
+#img-one .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
+
+/* Middle Section */
+
+
+#second-content {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+}
+
+.mid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.each-pic {
+  padding: 5px;
+}
+
+.each-pic img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding: 10px;
+}
+
+.each-pic span {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+  /* Bottom Section */
+
